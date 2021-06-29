@@ -218,10 +218,11 @@ footer p{
         font-size: 30px;
     }
 }
-@media screen and (max-width:375px){
+@media screen and (max-width:400px){
     .navbar
     {
-        background-color: white;
+        background-color: black;
+        color: white;
     }
     .scrop h3{
         font-size: 50px;
