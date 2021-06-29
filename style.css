@@ -191,27 +191,30 @@ footer p{
     height: 15px;
     animation: animation2 2s infinite;
 }
-@media screen and (max-width:1800px){
+@media screen and (max-width:800px){
     .navbar
     {
         background-color: white;
     }
     .scrop h3{
-        font-size: 70px;
+        font-size: 50px;
     }
     .scrop p{
-        font-size: 18px;
+        font-size: 15px;
     }
     .logo
     {
-        margin-right: 500px;
+        margin-right: 150px;
     }
     .scrop button{
-        padding: 15px 15px;
+        padding: 10px 10px;
     }
     .navbar
     {
     height: 89px;
+    }
+    footer p {
+        font-size: 30px;
     }
 }
 @keyframes animation1
