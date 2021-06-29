@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.navbar
+{
+    height: 100px;
+    width: 100vw;
+    background-color: hsla(209, 61%, 16%, 0.739);
+    opacity: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.navbar ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-top: 20px;
+    margin-right: 100px;
+
+}
+.navbar ul li{
+
+    padding: 0 10px;
+    font-size: xx-large;
+    
+}
+.navbar ul a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.navbar ul a:hover
+{
+    color: hsla(182, 63%, 54%);
+    cursor: pointer;
+}
+.logo
+{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    margin-right: 1020px;
+}
+.allin
+{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)), url(hero-bcg.jpeg)  ;
+    background-size: cover;
+    display: flex;
+    
+}
+.aboutus 
+{
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(206, 206, 206);
+}
+.services
+{
+    width: 100vw;
+    height: 80vh;
+    background-color: fff;
+}
+.tours
+{
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(206, 206, 206);
+}
+.headings
+{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+}
+.headings h3{
+    display: inline;
+    padding: 0 7px; 
+    margin-top: 20px;
+    line-height: 1.25;
+    padding-top: 10px;
+}
+.clrblu
+{
+    color: hsla(182, 63%, 54%);
+}
+.clrblc
+{
+    color: hsl(209, 61%, 16%);
+}
+footer
+{
+    width: 100vw;
+    height: 300px;
+    text-align: center;
+    background-color: hsl(209, 61%, 16%);
+    color: white;
+}
+footer p{
+    padding-top: 150px;
+    /* margin-top: 200px; */
+    font-size: 40px;
+}
+
+.scrop
+{
+    /* position: absolute; */
+    height: 30vh;
+    width: 60vw;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* margin-top: 30vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35vh;
+    margin-left: 20vw;
+
+}
+.scrop h3{
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+.scrop p{
+    max-width: 40rem;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.scrop button{
+    padding: 20px 20px;
+    border: 3px solid white ;
+    background: transparent;
+    color: white;
+    letter-spacing: 7px;
+    cursor: pointer;
+}
+.scrop button:hover
+{
+    background-color: white;
+    color: hsla(182, 63%, 54%);
+}
+.gap
+{
+    width: 10vw;
+    height: 100px;
+}
+.upscrol
+{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 70px;
+    height: 45px;
+    background-color: transparent;
+    display: none;
+    animation: animation1 2s infinite;
+}
+.upclicked
+{
+    display: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: 900;
+    flex-direction: column;
+    color: darkblue;
+    width: 70px;
+}
+.upclicked a{
+    text-decoration: none;
+    height: 15px;
+    animation: animation2 2s infinite;
+}
+@media screen and (max-width:1800px){
+    .navbar
+    {
+        background-color: white;
+    }
+    .scrop h3{
+        font-size: 70px;
+    }
+    .scrop p{
+        font-size: 18px;
+    }
+    .logo
+    {
+        margin-right: 500px;
+    }
+    .scrop button{
+        padding: 15px 15px;
+    }
+    .navbar
+    {
+    height: 89px;
+    }
+}
+@keyframes animation1
+{
+    from {bottom: 50px;}
+    to {bottom: 70px;}
+}
+@keyframes animation2
+{
+    from {color: hsla(182, 63%, 54%);}
+    to {color:darkblue;}
+}
