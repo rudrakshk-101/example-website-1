@@ -209,12 +209,62 @@ footer p{
     .scrop button{
         padding: 10px 10px;
     }
+    
     .navbar
     {
     height: 89px;
     }
     footer p {
         font-size: 30px;
+    }
+}
+@media screen and (max-width:375px){
+    .navbar
+    {
+        background-color: white;
+    }
+    .scrop h3{
+        font-size: 50px;
+    }
+    .scrop p{
+        font-size: 15px;
+    }
+    .logo
+    {
+        margin-right: 10px;
+    }
+    .scrop button{
+        padding: 10px 10px;
+    }
+    .navbar
+    {
+    height: 89px;
+    }
+    footer p {
+        font-size: 30px;
+    }
+    .navbar li
+    {
+        padding: 0;
+    }
+    .navbar li a
+    {
+        padding: 0;
+    }
+    .navbar ul li
+    {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .logo{
+        margin-left: 80px;
+    }
+    .headings
+    {
+    font-size: 1.5rem;
+    }
+    .headings h3{
+        padding: 0 3px; 
     }
 }
 @keyframes animation1
