@@ -218,7 +218,7 @@ footer p{
         font-size: 30px;
     }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
     .navbar
     {
         background-color: black;
